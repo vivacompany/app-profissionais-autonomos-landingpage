@@ -1,6 +1,6 @@
 #form {
-    background: #b01212;
-    margin-top: -250px;
+    background: linear-gradient(-30deg, #580505, #ff0000);
+    height: 100vh;
 }
 
 #form button[type=submit]{
