@@ -29,7 +29,7 @@
     top: 0;
     bottom: 0;
     right: 0;
-    margin-top: 6.75rem;
+    margin-top: 8.75rem;
 }
 
 .svg-1{
@@ -47,4 +47,9 @@
 h1.title{
     font-size: 3rem;
     color: #b01212;
+}
+
+.img-top {
+    width: 43%;
+    margin-top: -60px;
 }

@@ -501,7 +501,7 @@
 
           <div class="col-md-7 col-lg-6">
             <!-- Form -->
-            <form class="js-validate needs-validation" novalidate="">
+            <form class="" enctype="multipart/form-data" method="POST" action="./script.php?acao=insertData" >
               <!-- Card -->
               <div class="card">
 
@@ -510,8 +510,8 @@
                     <div class="col-sm-6">
                       <!-- Form -->
                       <div class="mb-4">
-                        <label class="form-label" for="signupHeroFormFirstName">Nome</label>
-                        <input type="text" class="form-control form-control-lg" name="signupHeroFormNameFirstName"
+                        <label class="form-label" for="nome">Nome</label>
+                        <input type="text" class="form-control form-control-lg" name="nome"
                           id="signupHeroFormFirstName" placeholder="Nome completo" aria-label="First name" required="">
                         <span class="invalid-feedback">Por favor insira o nome completo</span>
                       </div>
@@ -522,8 +522,8 @@
                     <div class="col-sm-6">
                       <!-- Form -->
                       <div class="mb-4">
-                        <label class="form-label" for="signupHeroFormLasttName">Telefone</label>
-                        <input type="tel" class="form-control form-control-lg" name="signupHeroFormNameLastName"
+                        <label class="form-label" for="telefone">Telefone</label>
+                        <input type="tel" class="form-control form-control-lg" name="telefone"
                           id="signupHeroFormLasttName" placeholder="+244 912 345 679" aria-label="Last name"
                           required="">
                         <span class="invalid-feedback">Por favor insira um numero valido</span>
@@ -536,8 +536,8 @@
 
                   <!-- Form -->
                   <div class="mb-4">
-                    <label class="form-label" for="signupHeroFormWorkEmail">Email</label>
-                    <input type="email" class="form-control form-control-lg" name="signupHeroFormNameWorkEmail"
+                    <label class="form-label" for="signupHeroFormWorkEmail">E-mail</label>
+                    <input type="email" class="form-control form-control-lg" name="email"
                       id="signupHeroFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" required="">
                     <span class="invalid-feedback">Por favor insira um email valido</span>
                   </div>
@@ -548,7 +548,7 @@
                       <!-- Form -->
                       <div class="mb-4">
                         <label class="form-label" for="signupHeroFormSignupPassword">Área ou especialidade</label>
-                        <select name="profissao" id="profissao" class="form-select">
+                        <select name="area" id="profissao" class="form-select">
                           <option value="">Selecione uma opção</option>
                           <option value="CARDIOLOGIA">CARDIOLOGIA</option>
                           <option value="CIRURGIÃO">CIRURGIÃO</option>
@@ -593,7 +593,7 @@
                   <!-- Check -->
                   <div class="form-check mb-4">
                     <input type="checkbox" class="form-check-input" id="signupHeroFormPrivacyCheck"
-                      name="signupFormPrivacyCheck" required="">
+                      name="privacidade" required="">
                     <label class="form-check-label small" for="signupHeroFormPrivacyCheck"> Ao enviar este formulário,
                       li e reconheci a <a href="https://app.e-viva.tech/index.php/politicas-de-privacidade/">Política
                         de Privacidade</a></label>
@@ -738,7 +738,7 @@
             <div class="pe-lg-6">
               <!-- Browser Device -->
               <figure class="device-browser">
-                <img class="device-browser-img img-fluid" style="margin-top: -60px;" src="./img/profissiona-2.png"
+                <img class="device-browser-img img-fluid" style="margin-top: -60px; width: 80%;" src="./img/profissional-1.png"
                   alt="profissional-autonomo" data-anime="fade">
               </figure>
               <!-- End Browser Device -->
